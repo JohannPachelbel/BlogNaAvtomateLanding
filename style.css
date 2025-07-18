@@ -992,18 +992,18 @@ section {
 }
 
 .module-header:hover {
-  background: rgba(0, 255, 0, 0.1);
+  background: #a78bfa;
 }
 
 .module-header h3 {
-  color: rgba(44, 62, 80, 0.92);
+  color: #7c3aed;
   font-size: 1.2rem;
   margin: 0;
 }
 
 .module-toggle {
   font-size: 1.5rem;
-  color: rgba(44, 62, 80, 0.92);
+  color: #a78bfa;
   transition: transform 0.3s ease;
 }
 
