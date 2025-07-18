@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог на автомате - Курс автоматизации контента</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Блог на автомате — твой отдел продаж и команда маркетинга</h1>
+            <p class="hero-subtitle">Получай заявки и новых клиентов благодаря системному контенту без найма и рутины — твой блог работает за тебя, даже когда ты занят бизнесом.</p>
+            <button class="btn btn--primary btn--lg cta-button" onclick="scrollToSection('pricing')">
+                Записаться на курс
+            </button>
+        </div>
+        <div class="hero-glow"></div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="problems" id="problems">
+        <div class="container">
+            <h2 class="section-title">Главная боль</h2>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <h3>Блог не привлекает клиентов — не знаешь, что и когда публиковать?</h3>
+                </div>
+                <div class="problem-card">
+                    <h3>Нет времени и сил вести соцсети самому?</h3>
+                </div>
+                <div class="problem-card">
+                    <h3>Устал платить подрядчикам или объяснять своё видение чужой команде?</h3>
+                </div>
+                <div class="problem-card">
+                    <h3>Хотел бы переключить свой блог на автопилот и заняться стратегией?</h3>
+                </div>
+            </div>
+            <div class="solution-text">
+                <h3>Этот курс заменит копирайтера, дизайнера и маркетолога — и сэкономит десятки часов.</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section class="target-audience" id="target-audience">
+        <div class="container">
+            <h2 class="section-title">Для кого курс</h2>
+            <p class="section-subtitle">Идеальный выбор:</p>
+            <div class="audience-grid">
+                <button class="audience-btn">Экспертов и предпринимателей, развивающих личный бренд</button>
+                <button class="audience-btn">Блогеров, желающих превратить аудиторию в клиентов</button>
+                <button class="audience-btn">Консультантов, коучей, специалистов - всех, кому нужен постоянный поток заявок</button>
+                <div class="emoji-fill">💼</div>
+                <button class="audience-btn center">Тех, кто хочет видеть результат от блога, а не просто делать "контент ради контента"</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2 class="section-title">Что ты получишь</h2>
+            <div class="benefits-grid">
+                <button class="benefit-btn">Автоматизированный блог: публикации по расписанию без ручной рутины</button>
+                <button class="benefit-btn">Отдел контент-маркетинга "под ключ" без найма сотрудников</button>
+                <button class="benefit-btn">Поток заявок и клиентов прямо из соцсетей</button>
+                <div class="emoji-fill">🤖</div>
+                <div class="emoji-fill">⚡</div>
+                <button class="benefit-btn">Экономию времени: до 30 часов в месяц</button>
+                <div class="emoji-fill">💰</div>
+                <button class="benefit-btn">Системный, продающий контент — под твой стиль и цели бизнеса</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section class="program" id="program">
+        <div class="container">
+            <h2 class="section-title">Программа курса (1-2 месяца: 8 модулей)</h2>
+            <div class="modules-container">
+                <div class="module-item">
+                    <div class="module-header" onclick="toggleModule(0)">
+                        <h3>Модуль 1: Тексты и сценарии</h3>
+                        <span class="module-toggle">+</span>
+                    </div>
+                    <div class="module-content">
+                        <p>Определение ниши и площадок. Генерация идей, создание контент-плана. Написание постов в автоматическом режиме. Адаптация текстов под короткие видео. Бонус: упаковка "инсайта" в пост за минуту.</p>
+                    </div>
+                </div>
+                <div class="module-item">
+                    <div class="module-header" onclick="toggleModule(1)">
+                        <h3>Модуль 2: Нейрофотосессии на телефоне</h3>
+                        <span class="module-toggle">+</span>
+                    </div>
+                    <div class="module-content">
+                        <p>Перевод промптов на английский. Создание базового изображения в Kling и ChatGPT. Пересадка лица в DeepSwapper. Цветокоррекция и апскейл в Krea. Обработка и добавление подписи. Создание фотографических промптов.</p>
+                    </div>
+                </div>
+                <div class="module-item">
+                    <div class="module-header" onclick="toggleModule(2)">
+                        <h3>Модуль 3: Запись видео</h3>
+                        <span class="module-toggle">+</span>
+                    </div>
+                    <div class="module-content">
+                        <p>Обзор оборудования (светильники, микрофон). Работа с суфлёром. Съёмка видео с приложением Open Camera. Настройка экспозиции и подключение петличного микрофона.</p>
+                    </div>
+                </div>
+                <div class="module-item">
+                    <div class="module-header" onclick="toggleModule(3)">
+                        <h3>Модуль 4: Мобильный монтаж</h3>
+                        <span class="module-toggle">+</span>
+                    </div>
+                    <div class="module-content">
+                        <p>Монтаж в InShot. Обрезка, наложение музыки. Создание и редактирование субтитров. Изменение шрифта, цвета и анимации. Экспорт видео без водяного знака.</p>
+                    </div>
+                </div>
+                <div class="module-item">
+                    <div class="module-header" onclick="toggleModule(4)">
+                        <h3>Модуль 5: Публикация</h3>
+                        <span class="module-toggle">+</span>
+                    </div>
+                    <div class="module-content">
+                        <p>Подготовка постов для публикации. Создание отложенных постов в социальных сетях с выходом в заданное время. Выбор файла для обложки видео.</p>
+                    </div>
+                </div>
+                <div class="module-item">
+                    <div class="module-header" onclick="toggleModule(5)">
+                        <h3>Модуль 6: Нейрофото и дизайн на ПК</h3>
+                        <span class="module-toggle">+</span>
+                    </div>
+                    <div class="module-content">
+                        <p>Работа в Recraft, Kling, Dreamina. Удаление водяного знака в Dewatermark. Пересадка лица в Deep Swapper. Доработка в Fooocus. Улучшение в Krea. Графическое оформление в Supa. Бонус: коммерческие изображения.</p>
+                    </div>
+                </div>
+                <div class="module-item">
+                    <div class="module-header" onclick="toggleModule(6)">
+                        <h3>Модуль 7: Продвинутый звук и монтаж</h3>
+                        <span class="module-toggle">+</span>
+                    </div>
+                    <div class="module-content">
+                        <p>Запись звука на внешний микрофон. Постобработка в Adobe Audition, создание пресетов. Монтаж в CapCut на компьютере. Синхронизация видео и аудио.</p>
+                    </div>
+                </div>
+                <div class="module-item">
+                    <div class="module-header" onclick="toggleModule(7)">
+                        <h3>Модуль 8: Итоги + ИИ-Ассистенты</h3>
+                        <span class="module-toggle">+</span>
+                    </div>
+                    <div class="module-content">
+                        <p>Подведение итогов. Анализ приобретенных навыков. Бонус: Ассистент для создания Ассистентов под любые задачи. Построение собственной экосистемы автоматизации.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Process Section -->
+    <section class="learning-process" id="learning-process">
+        <div class="container">
+            <h2 class="section-title">Как проходит обучение</h2>
+            <div class="process-list">
+                <div class="process-item">
+                    <h3>Видеоуроки (коротко и по делу)</h3>
+                </div>
+                <div class="process-item">
+                    <h3>Чат поддержки и разборы работ</h3>
+                </div>
+                <div class="process-item">
+                    <h3>Домашние задания: учишься на своих темах и проектах</h3>
+                </div>
+                <div class="process-item">
+                    <h3>Вечный доступ ко всем материалам</h3>
+                </div>
+                <div class="process-item">
+                    <h3>Проходишь в своём темпе или по расписанию: Выпускной проект необходимо сдать через 2 месяца после старта</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results" id="results">
+        <div class="container">
+            <h2 class="section-title">Результат и выпускной проект</h2>
+            <p class="section-subtitle">Ты создашь:</p>
+            <div class="results-list">
+                <div class="result-item">
+                    <h3>Минимум 3 системных поста под свою нишу</h3>
+                </div>
+                <div class="result-item">
+                    <h3>3 коротких видео с субтитрами и обработкой</h3>
+                </div>
+                <div class="result-item">
+                    <h3>3 яркие нейрофото и обложки для видео</h3>
+                </div>
+                <div class="result-item">
+                    <h3>Рабочий контент-план на месяц с креативными идеями</h3>
+                </div>
+            </div>
+            <div class="result-conclusion">
+                <h3>Всё своими руками — без команды и подрядчиков</h3>
+                <p>Будет не просто портфолио, а полностью готовый коммерческий блог — для себя или для клиента.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Отзывы учеников</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"Запросов из блога стало в 2 раза больше!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Впервые стала публиковать регулярно — и без усталости."</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Ушла от рутины, теперь занимаюсь только стратегией!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Тарифы и цены</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Базовый</h3>
+                    <div class="price">
+                        <span class="old-price">8 000 ₽</span>
+                        <span class="new-price">5 000 ₽</span>
+                    </div>
+                    <p class="discount-text">Первым десяти оформившим</p>
+                    <ul class="features">
+                        <li>Вечный доступ ко всем урокам и материалам</li>
+                        <li>Базовая поддержка</li>
+                        <li>Групповой чат</li>
+                    </ul>
+                    <div class="contact-buttons">
+                        <a href="https://t.me/tolgsky" target="_blank" class="btn btn--primary contact-btn">Telegram</a>
+                        <a href="https://vk.com/tolgsky" target="_blank" class="btn btn--primary contact-btn">ВКонтакте</a>
+                        <a href="https://wa.me/79062800393" target="_blank" class="btn btn--primary contact-btn">WhatsApp</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Продвинутый</h3>
+                    <div class="price">
+                        <span class="old-price">15 000 ₽</span>
+                        <span class="new-price">10 000 ₽</span>
+                    </div>
+                    <p class="discount-text">Первым десяти оформившим</p>
+                    <ul class="features">
+                        <li>Все из базового</li>
+                        <li>Обратная связь преподавателя</li>
+                        <li>Разбор работ</li>
+                        <li>Бонус-курс "Нейропикс"</li>
+                        <li>Дополнительные инструкции для AI-Ассистентов</li>
+                    </ul>
+                    <div class="contact-buttons">
+                        <a href="https://t.me/tolgsky" target="_blank" class="btn btn--primary contact-btn">Telegram</a>
+                        <a href="https://vk.com/tolgsky" target="_blank" class="btn btn--primary contact-btn">ВКонтакте</a>
+                        <a href="https://wa.me/79062800393" target="_blank" class="btn btn--primary contact-btn">WhatsApp</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <h3>VIP</h3>
+                    <div class="price">
+                        <span class="old-price">30 000 ₽</span>
+                        <span class="new-price">20 000 ₽</span>
+                    </div>
+                    <p class="discount-text">Первым десяти оформившим</p>
+                    <ul class="features">
+                        <li>Все из продвинутого</li>
+                        <li>Индивидуальные консультации</li>
+                        <li>5 видеосозвонов с преподавателем</li>
+                        <li>Помощь в упаковке профиля в соцсетях</li>
+                    </ul>
+                    <div class="contact-buttons">
+                        <a href="https://t.me/tolgsky" target="_blank" class="btn btn--primary contact-btn">Telegram</a>
+                        <a href="https://vk.com/tolgsky" target="_blank" class="btn btn--primary contact-btn">ВКонтакте</a>
+                        <a href="https://wa.me/79062800393" target="_blank" class="btn btn--primary contact-btn">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Section -->
+    <section class="investment" id="investment">
+        <div class="container">
+            <h2 class="section-title">Почему "Блог на автомате" — это инвестиция</h2>
+            <div class="investment-list">
+                <div class="investment-item">
+                    <h3>Контент работает на продажи — без выгорания и найма команды</h3>
+                </div>
+                <div class="investment-item">
+                    <h3>Освободишь десятки часов для ключевых задач бизнеса</h3>
+                </div>
+                <div class="investment-item">
+                    <h3>Результат — поток клиентов, а не просто публикации</h3>
+                </div>
+                <div class="investment-item">
+                    <h3>Всё под контролем: твой голос, твой бизнес, твой стиль, твоя стратегия, полная автоматизация</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="cta">
+        <div class="container">
+            <h2 class="section-title">Готов начать?</h2>
+            <p class="cta-text">Оставь заявку и запускай отдел маркетинга в своем блоге — на автопилоте!</p>
+            <div class="cta-contacts">
+                <a href="https://t.me/tolgsky" target="_blank" class="btn btn--primary btn--lg">Telegram @tolgsky</a>
+            </div>
+            <p class="cta-warning">Не жди — набор ограничен</p>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
