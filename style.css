@@ -996,14 +996,14 @@ section {
 }
 
 .module-header h3 {
-  color: var(--cyber-green);
+  color: rgba(44, 62, 80, 0.92);
   font-size: 1.2rem;
   margin: 0;
 }
 
 .module-toggle {
   font-size: 1.5rem;
-  color: var(--cyber-green);
+  color: rgba(44, 62, 80, 0.92);
   transition: transform 0.3s ease;
 }
 
