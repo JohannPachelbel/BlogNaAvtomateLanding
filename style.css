@@ -975,7 +975,7 @@ section {
 
 .module-item {
   background: rgba(0, 0, 0, 0.8);
-  border: 2px solid var(--cyber-green);
+  border: 2px solid #a78bfa;
   border-radius: var(--radius-lg);
   margin-bottom: var(--space-16);
   overflow: hidden;
